@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(git add .eslintrc.json .gitignore README.md components.json next-env.d.ts next.config.ts node-compat.cjs package-lock.json package.json postcss.config.mjs prisma/ src/ tsconfig.json vitest.config.mts)",
+      "PowerShell(git add .gitignore .claude/settings.json)",
+      "PowerShell(git config user.email \"amirabd1994@gmail.com\")",
+      "PowerShell(git config user.name \"predator909\")",
+      "PowerShell(npx vitest run src/lib/__tests__/auth.test.ts 2>&1)"
+    ]
+  }
+}
